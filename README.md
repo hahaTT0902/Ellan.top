@@ -5,6 +5,15 @@
 
 > *“寻缘草开时相见，叶瓣凋落一轮回。”*
 
+<img width="2000" height="1600" alt="image" src="https://github.com/user-attachments/assets/8e3f5a0c-170b-4804-b102-beec3eee1ffa" />
+<img width="2000" height="1600" alt="image" src="https://github.com/user-attachments/assets/0121322d-ebaf-4ee3-8c16-4f3b7b6cffac" />
+<img width="2000" height="1600" alt="image" src="https://github.com/user-attachments/assets/8c6f1f1a-92dd-4648-9a9a-9a682ea9be6e" />
+<img width="2000" height="1600" alt="image" src="https://github.com/user-attachments/assets/0bb8975f-6d0e-4834-851f-0f59a500117f" />
+<img width="2000" height="1600" alt="image" src="https://github.com/user-attachments/assets/73a38ab2-ca33-48bb-8ced-a019307c7d48" />
+<img width="2000" height="1600" alt="image" src="https://github.com/user-attachments/assets/da5875b2-6448-4b78-b26a-5b3329156ed2" />
+<img width="2000" height="1600" alt="image" src="https://github.com/user-attachments/assets/ba16d1b5-9269-49d3-bcff-b292611168a7" />
+<img width="2000" height="1600" alt="image" src="https://github.com/user-attachments/assets/630599ab-87cb-456d-83f3-d6a8e488a8a3" />
+
 ---
 
 ![banner](https://ellan.lol/banner.jpg)
