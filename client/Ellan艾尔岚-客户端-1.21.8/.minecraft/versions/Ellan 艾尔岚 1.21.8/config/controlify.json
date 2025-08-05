@@ -1,0 +1,20 @@
+{
+  "current_controller": null,
+  "controllers": {},
+  "global": {
+    "virtual_mouse_screens": [
+      "net.minecraft.class_465"
+    ],
+    "keyboardMovement": false,
+    "keyboard_movement_whitelist": [],
+    "out_of_focus_input": false,
+    "vibration_onboarded": false,
+    "reach_around": "OFF",
+    "allow_server_rumble": true,
+    "ui_sounds": false,
+    "notify_low_battery": true,
+    "ingame_button_guide_scale": 1.0,
+    "use_enhanced_steam_deck_driver": true,
+    "seen_servers": []
+  }
+}

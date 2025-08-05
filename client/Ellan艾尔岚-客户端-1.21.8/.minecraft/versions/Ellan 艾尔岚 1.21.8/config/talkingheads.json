@@ -1,0 +1,9 @@
+{
+	"enableMod": true,
+	"usePlasmoVoice": true,
+	"useSimpleVoiceChat": true,
+	"removedVolume": 0.002,
+	"scaleX": 1.0,
+	"scaleY": 1.0,
+	"scaleZ": 1.0
+}

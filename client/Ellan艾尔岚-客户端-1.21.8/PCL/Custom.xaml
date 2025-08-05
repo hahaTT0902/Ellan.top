@@ -1,0 +1,33 @@
+<local:MyCard Title="一起开启艾尔岚の冒险之旅吧~">
+    <StackPanel Margin="25,35,25,5">
+        <local:MyHint IsWarn="False" Text="为更好的游戏体验，请添加服务器Q群:548292445" />
+        <TextBlock Margin="0,5,0,10"
+                   Text="小小人 你的奇幻之心 带着光辉的太阳 清凉的月亮&#xA;辉煌的星空 雨的凛冽和海的广阔&#xA;将带你寻找到不为人知的疯狂不思议 带你去征服 无限的冒险&#xA;去创造你心中的奇幻世界&#xA;大冒险家们 一起来艾尔岚大陆 开启你的奇幻冒险之旅吧" />
+     </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="艾尔岚服务器相关功能">
+    <StackPanel Margin="25,35,23,15">
+        <TextBlock Margin="0,0,0,5"
+                   Text="艾尔岚官方提供教程以及文档网站&#xA;若无法启动或不会使用 请点击下方求助按钮" />
+<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="打开艾尔岚官网" EventType="打开网页" EventData="http://ellan.site/" />
+            <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="服务器交流频道" EventType="打开网页" EventData="https://pd.qq.com/s/9uish7sn4" />
+         </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="这服真棒！赞助支持一下吧~">
+    <StackPanel Margin="25,35,23,5">
+        <TextBlock TextWrapping="Wrap"
+                   Text="点击下方按钮即可赞助服务器" Foreground="{DynamicResource ColorBrush2}"/>
+        <TextBlock TextWrapping="Wrap"
+                   Text="点击下方按钮即可赞助服务器" Foreground="{DynamicResource ColorBrush4}"/>
+        <TextBlock TextWrapping="Wrap"
+                   Text="点击下方按钮即可赞助服务器" Foreground="{DynamicResource ColorBrush5}"/>
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35" 
+                   Text="点我赞助打赏" EventType="打开文件" EventData="zanzhu.jpg" />
+    </StackPanel>
+</local:MyCard>
