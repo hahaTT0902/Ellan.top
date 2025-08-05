@@ -89,8 +89,9 @@
 
 ---
 
+## 🎞️ 宣传片
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112644023388221&bvid=BV1LbgTeYEUP&cid=500001588281833&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+[![点击观看宣传片](https://i0.hdslb.com/bfs/archive/2fdd9aa1f8ecf9f2fcd0cf1c8ad9e4355ecedc5d.jpg)](https://www.bilibili.com/video/BV1LbgTeYEUP)
 
 ---
 
