@@ -8,7 +8,7 @@
 
 ---
 
-![banner](https://ellan.lol/banner.jpg) <!-- 替换为你的横幅图链接 -->
+![banner](https://ellan.lol/banner.jpg)
 
 ## 🧭 导航目录
 
@@ -25,23 +25,23 @@
 
 我们为你准备了专属客户端，轻松一键启动艾尔岚的奇幻世界。
 
-> 🧩 支持系统：Windows / Mac / Linux  
+> 🧩 支持系统：Windows / macOS / Linux  
 > 🚀 启动器：Ellan Launcher  
 > 📦 包含内容：自动材质包加载、推荐模组、性能优化配置
 
-👉 [点击下载](http://ellan.lol/client)
+👉 [点击前往 Release 页面下载最新客户端](https://github.com/hahaTT0902/Ellan.top/releases)
 
 ---
 
 ## 🎨 材质包
 
-艾尔岚自制材质包，全面提升幻想感，兼容原版 & 模组！
+艾尔岚自制材质包，全面提升幻想感，兼容原版与模组！
 
-- 💎 32x / 64x 分辨率支持
-- 🌈 UI重绘 + 粒子特效
-- 🔄 自动更新支持
+- 💎 支持 32x / 64x 分辨率
+- 🌈 UI 全面重绘 + 粒子特效优化
+- 🔄 自动更新机制兼容客户端
 
-👉 [前往材质包页面](http://ellan.lol/resourcepack)
+👉 [在 GitHub 上查看材质包资源](https://github.com/hahaTT0902/Ellan.top/tree/main/resourcepack)
 
 ---
 
@@ -49,10 +49,10 @@
 
 我们的 Wiki 是新手的指引书，也是老玩家的魔法书。
 
-- 生物图鉴
-- 技能系统详解
-- 剧情线索解析
-- 建筑与探险指南
+- 🐉 生物图鉴
+- ⚔️ 技能系统详解
+- 📖 剧情线索解析
+- 🏰 建筑与探险指南
 
 👉 [查看 Wiki](http://ellan.lol/wiki)
 
@@ -60,22 +60,26 @@
 
 ## 🛠 开源工程
 
-欢迎开发者加入我们的幻想工程！
+欢迎开发者加入我们的幻想工程！  
+这是一个开放透明的幻想服务器生态建设项目，持续迭代中。
 
-- 🌐 网站源码（Next.js / Vite / Vue3 可选）
-- 🎮 启动器项目（Electron / JavaFX 可选）
-- 🎨 材质包编辑模板
-- 🧩 插件/模组开发SDK
+- 🌐 官网源码（`website/`）
+- 🎮 启动器源码（`launcher/`）
+- 🎨 材质包（`resourcepack/`）
+- 🧩 推荐模组集（`mods/`）
+- 📄 配置与脚本（`server/`, `scripts/`）
 
-👉 [GitHub 仓库](https://github.com/ellan-top)
+👉 [前往 GitHub 仓库](https://github.com/hahaTT0902/Ellan.top)
 
 ---
 
 ## 🤝 加入我们
 
-- 👑 加入服务器：`ellan.lol`
-- 🧑‍💻 加入开发组/内测玩家：在 [Discussions](https://github.com/ellan-top/community/discussions) 留言
-- 📮 联系管理员：`admin@ellan.lol` 或 Discord: `@EllanAdmin`
+- 👑 服务器地址：`ellan.lol`
+- 📣 玩家交流：[Discussions](https://github.com/hahaTT0902/Ellan.top/discussions)
+- 📮 管理员联系方式：  
+  Email: `admin@ellan.lol`  
+  Discord: `@EllanAdmin`
 
 ---
 
