@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<!--网站收录数据抓取-->
+	<meta charset="UTF-8">
+	<meta name="language" content="zh-CN">
+	<meta name="title" content="艾尔岚">
+	<meta name="author" content="Ellan">
+	<meta name="description" content="hahaTT">
+	<meta name="keywords" content="工作室">
+	<meta name="robots" content="All">
+	<!--数据抓取完成-->
+	<title>Ellan艾尔岚</title>
+	<!-- 调用ICON地址 -->
+	<link rel="icon" href="/img/icon.png">
+	<!-- 自适应 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- Css样式调用 -->
+	<link rel="stylesheet" type="text/css" href="css/cnm.sb_load.css" />
+	<link rel="stylesheet" type="text/css" href="css/cnm.sb_bg.css" />
+	<link rel="stylesheet" type="text/css" href="css/cnm.sb_pc.css" />
+	<link rel="stylesheet" type="text/css" href="css/cnm.sb_mp.css" />
+	<!-- Javascript样式调用 -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/cnm.sb_judge.js"></script>
+	<script src="js/cnm.sb_pc.js"></script>
+	<script src="js/cnm.sb_mp.js"></script>
+	<script src="js/cnm.sb_copy.js"></script>
+	<script src="js/server-status.js"></script>
+	<script src="js/team.js"></script>
+
+
+</head>
+
+<body>
+	<!-- 电脑PC端 -->
+	<div id="pc">
+		<div id="content">
+			<!-- 内容左侧选择区域 -->
+			<ul id="cleft">
+				<div class="cleft_top">
+					<div class="cleft_topbg">
+						<div class="cleftbg_img"><img src="img/icon.png" alt="服务器LOGO"></div>
+					</div>
+					<div class="cleftbg_p">看啊，看啊，这是谁来了？</div>
+				</div>
+				<li id="cleft_li01" style="background-color: #ececec;"><img src="font/cnmsb01.png" /><span>首页</span>
+				</li>
+				<li id="cleft_li02"><img src="font/cnmsb02.png" /><span>服务器介绍</span></li>
+				<li id="cleft_li03"><img src="font/cnmsb03.png" /><span>开发团队</span></li>
+				<li id="cleft_li04"><img src="font/cnmsb04.png" /><span>玩家讨论</span></li>
+				<li id="cleft_li05"><img src="font/cnmsb05.png" /><span>快速链接</span></li>
+				<li id="cleft_li07"  onclick="location.href='links/index.html'"><img src="font/cnmsb07.png" /><span>加入游戏</span></li>
+				<li id="cleft_li06" onclick="AddFavorite('艾尔岚',location.href)"><img
+						src="font/cnmsb06.png" /><span>收藏页面</span></li>
+
+				<!-- <li class="cleft_bottom"><img src="font/nav_bottom.png"><span>宽度设置</span></li> -->
+			</ul>
+
+
+			<!-- 内容左侧选择区域 -->
+			<div id="cright">
+
+                <!--第一页 - 首页-HTML页面-->
+                <div id="nav01">
+                    <!-- 模糊背景层 -->
+                    <div class="nav01_bg"></div>
+
+                    <!-- 内容层 -->
+                    <div class="nav01_content">
+                        <div class="nav01_left">
+                            <div class="nav01_logo">
+                                <img src="https://www.hereitis.cn/project/crtw19ckb7r4/img/cnm.sb_logo.svg" />
+                                <h4>欢迎来到</h4>
+                            </div>
+                            <div class="nav01_wz">
+								<h5>你的奇幻之心已经准备好迎接未知的冒险！</h5>
+								<h1>Ellan.top</h1>
+
+								<div id="server-card" class="mc-card">
+								<div class="mc-icon">
+									<img id="server-icon" src="" alt="icon" />
+								</div>
+								<div class="mc-info">
+									<div id="server-motd" class="mc-motd">MOTD 加载中...</div>
+									<div id="server-version" class="mc-meta"></div>
+									<div id="server-players" class="mc-meta"></div>
+									<div id="server-ping" class="mc-meta"></div>
+								</div>
+								<button class="mc-copy-btn" onclick="showDownloadOptions()">下载客户端</button>
+								<div id="client-download-popup" class="popup" style="display: none;">
+									<div class="popup-content">
+										<h3>请选择客户端版本</h3>
+										<div class="popup-buttons">
+										<button onclick="window.open('files/Ellan艾尔岚-客户端.exe')">Windows</button>
+										<button onclick="window.open('files/EllanTOP_Unix.zip')">Linux / Mac</button>
+										<button onclick="closePopup()">取消</button>
+										</div>
+									</div>
+								</div>
+								</div>
+								<h4>艾尔岚</h4>
+								<h3>原版生存 | 不限红石 | 纯公益服 | 长期稳定 | 多年老牌</h3>
+								<div class="bar"></div>
+							</div>
+                            <div class="nav01_but">
+                                <div class="nav01_but01">详细信息</div>
+                                <div class="nav01_but02">加入官方QQ群</div>
+                            </div>
+                        </div>
+                        <div class="nav01_right">|
+                            <!-- <div class="nav01_tpw">
+                                <h3>看啊，看啊，这是谁来了？</h3>
+                            </div> -->
+                        </div>
+                        <div class="nav01_fooder">版权所有:艾尔岚工作室 &nbsp;&nbsp;|&nbsp;&nbsp; © 2022-2025  All Copyright Reserved</div>
+                    </div>
+                </div>
+
+
+				<!-- 第二页 - 关于本站 -->
+				<div id="nav02">
+					<div class="nav02_bg">
+						<div class="nav02_bt">Ellan.top | 艾尔岚</div>
+					</div>
+					<!-- 站长资料 -->
+					<div class="nav02_kj" style="height: 600px;">
+						<h3>简介</h3>
+						<div class="nav02_grzl_headimg">
+							<img src="img/icon.png" alt="[头像]">
+							<a href="mailto:haha_tt@icloud.com" target="_blank" rel="noopener noreferrer">联系服主</a>
+						</div>
+						<div class="nav02_grzl_txt">
+							<p>小小人 你的奇幻之心已经准备好迎接未知的冒险！</p>
+							<p>让光辉的太阳、皎洁的月亮和璀璨的星空引领你</p>
+							<p> 在这个广阔的世界中寻找属于你的奇迹</p>
+							<p>欢迎来到 Ellan.TOP 艾尔岚大陆</p>
+							<p>这里是一个专为奇幻冒险者们打造的乐园</p>
+							<p>在这个充满光与暗、幻与真的世界中</p>
+							<p>你将探索未知的领域，勇敢地面对挑战。</p>
+							<p>【寻缘草开时相见，叶瓣凋落一轮回】</p>
+
+						</div>
+					</div>
+
+				
+					<div class="nav02_kj">
+						<!-- 图片展示区域（CSS设置背景图） -->
+						<div class="feature-strip">
+							<div class="feature-img img1"></div>
+							<div class="feature-img img2"></div>
+							<div class="feature-img img3"></div>
+							<div class="feature-img img4"></div>
+							<div class="feature-img img5"></div>
+						</div>
+
+						<h3>服务器特色</h3>
+
+						<p>
+							实时动态经济系统：我们的服务器经济是实时动态的。根据玩家的交易市场，物价会实时调整，每日更新，创造出一个充满活力的经济环境。
+						</p>
+						<p>
+							AI助理在线聊天：服务器现已接入DeepSeekV3，您可以前往"艾尔岚事务所"前台与AI助理FIA对话交互，聊天内容包括且不限于服务器相关问题。
+						</p>
+						<p>
+							每日任务系统：我们为玩家提供了每日任务，涵盖了探险、建筑、挖掘等各个方面。完成任务可以获得奖励和成就，增加游戏的挑战性和乐趣。
+						</p>
+						<p>
+							抽奖系统：服务器引入了刺激有趣的抽奖系统。通过完成特定任务、参与活动，你可以获得抽奖券。使用抽奖券参与抽奖，有机会获得稀有的装备、特殊道具、游戏内货币或其他令人惊喜的奖品。
+						</p>
+						<p>
+							体验超高的公屏交互：我们的服务器提供了公屏发红包和点歌等功能。你可以在公共聊天频道中发送红包给其他玩家，展示慷慨和友善的一面。同时，你还可以点歌，分享自己喜欢的音乐，与其他玩家一起享受音乐的美妙。
+						</p>
+						<p>
+							玩家财产安全保护：服务器包含了领地系统，容器保护，记录查询等保护机制。我们为这些功能都制作了UI，可以轻松交互，清晰的了解信息。
+						</p>
+						<p>
+							更多独家玩法：服务器内有家具拓展，更多钓鱼，更多附魔，酿酒工艺，移动光源，双人骑马，栓绳村民等独家拓展等你来探索。
+						</p>
+						<p>
+							完全原版的生存机制：服务器采用原汁原味的生存玩法，保留Minecraft最纯粹的乐趣，同时又融入丰富功能与拓展，带来独一无二的生存体验。
+						</p>
+					</div>
+					<p class="ebpx">--- 暂时先展示这么多啦 ---</p>
+				</div>
+
+				<!-- 第三页 - 团队 -->
+				<div id="nav03">
+					<div class="enav03_p">
+						<h3>艾尔岚<span>运营团队</span></h3>
+						<h5>连接创意与执行，用技术点亮每一次可能</h5>
+						<p>2020-2025</p>
+						<p>技术是一种信仰，而代码是表达方式…</p>
+					</div>
+
+					<div class="enav03_team">
+						<div class="member" onclick="showPopup('Galahad')">
+						<img src="img/gala.jpg" alt="[Galahad]">
+						<p>Galahad</p>
+						</div>
+						<div class="member" onclick="showPopup('hahaTT')">
+						<img src="img/tt.jpg" alt="[hahaTT]">
+						<p>hahaTT</p>
+						</div>
+						<div class="member" onclick="showPopup('Jelly_Bubble')">
+						<img src="img/jelly.jpg" alt="[Jelly_Bubble]">
+						<p>Jelly_Bubble</p>
+						</div>
+					</div>
+
+					<!-- 弹窗介绍 -->
+					<div id="popup" class="popup hidden">
+						<div class="popup-content">
+						<span class="close" onclick="hidePopup()">&times;</span>
+						<h3 id="popup-name">成员介绍</h3>
+						<p id="popup-text">加载中...</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- 第四页 - 联系我 -->
+				<div id="nav04">
+					<div class="nav04_bg"></div>
+					<div class="nav04_zsc">
+						<div>
+							<p>加入官方QQ群</p>
+							<img src="img/qrcode.jpg" alt="[加入官方QQ群]" title="[加入官方QQ群]">
+						</div>
+						<p>欢迎加入QQ群与其他玩家交流~</p>
+					</div>
+				</div>
+
+				<!-- 第五页 - 站点展示 -->
+				<div id="nav05">
+					<!-- 第五页-头部图片动态 -->
+					<div class="nav05_top">
+						<div class="nav05_topbgkj">
+							<div class="nav05_top_bg"></div>
+							<div class="nav05_top_tx01"></div>
+							<div class="nav05_top_tx02"></div>
+						</div>
+						<div class="nav05_top_fj"><img src="img/nav05_fj.png" alt="△"></div>
+					</div>
+					<!-- 第五页-内容区域 -->
+					<div class="nav05_centent">
+						<div class="nav05_centent_tit">
+							<h1>🦄官方站点🦄</h1>
+						</div>
+						<!-- 作品展示模板NO1 -->
+						<div class="nav05_centent_mb">
+							<a href="links/index.html" target="_blank" rel="noopener noreferrer">
+								<div><img src="img/Ellancraft.png" alt="[]"></div>
+								<h3>艾尔岚 在线客户端</h3>
+								<p>极致轻量化在线客户端，无需下载即可访问本服</p>
+							</a>
+							<div>立即前往</div>
+						</div>
+						<!-- 作品展示模板NO2 -->
+						<div class="nav05_centent_mb">
+							<a  href="https://pd.qq.com/s/9uish7sn4" rel="noopener noreferrer">
+								<div><img src="img/nav05_zp02.jpg" alt="[]"></div>
+								<h3>QQ交流频道</h3>
+								<p>在交流频道内反馈问题，求助解疑，举报违规，探讨游戏</p>
+							</a>
+							<div>立即前往</div>
+						</div>
+						<!-- 作品展示模板NO3 -->
+						<div class="nav05_centent_mb">
+							<a href="https://www.yuque.com/galahad-pyzzx/ellan.top">
+								<div><img src="img/nav05_zp03.jpg" alt="[]"></div>
+								<h3>服务器文档</h3>
+								<p>欢迎各位初来艾尔岚的冒险家们, 让我们一起来看看基础功能教程吧</p>
+							</a>
+							<div>立即前往</div>
+						</div>
+						<!-- 作品展示模板NO4 -->
+						<div class="nav05_centent_mb">
+							<a href="https://discord.gg/FeKwEbK8">
+								<div><img src="img/discord.png" alt="[]"></div>
+								<h3>Discord交流群</h3>
+								<p>海外用户建议加入~</p>
+							</a>
+							<div>立即前往</div>
+						</div>
+				</div>
+
+
+				<!-- 入场动画 -->
+				<div id="etext"></div>
+
+				<!-- 背景图片+背景灰度 -->
+				<div id="ebg"></div>
+				<div id="ebga"></div>
+
+				<!-- 背景飘落 -->
+				<div id="xuna"></div>
+				<script src="js/cnm.sb_bg.js"></script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- 手机MP端 -->
+	<div id="mp">
+		<div id="excontent">
+			<!-- NO1-首页内容 -->
+			<div id="exnav01">
+				<div class="exn1_top">
+					<img src="/img/icon.png" />
+					<span>Ellan.top</span>
+					<!-- <a href="" target="_blank" rel="noopener noreferrer">官网</a> -->
+				</div>
+				<div class="exn1_banner">
+					<h3>小小人</h3>
+					<p>你的奇幻之心已经准备好迎接未知的冒险！</p>
+				</div>
+				<ul class="exn1_but">
+					<li id="exn1_02">
+						<div><img src="font/cnmsb02.png" /></div>
+						<h5>关于本服</h5>
+						<p>原版生存 | 不限红石 | 纯公益服 | 多年老牌</p>
+					</li>
+					<li id="exn1_03">
+						<div><img src="font/cnmsb03.png" /></div>
+						<h5>开发团队</h5>
+						<p>团队核心成员，都是高技术力哦~</p>
+					</li>
+					<li id="exn1_04">
+						<div><img src="font/cnmsb04.png" /></div>
+						<h5>加入群聊</h5>
+						<p>想找我们聊天？有问题？点这里！</p>
+					</li>
+					<li id="exn1_05">
+						<div><img src="font/cnmsb05.png" /></div>
+						<h5>快速链接</h5>
+						<p>FAQ & 文档链接</p>
+					</li>
+				</ul>
+			</div>
+			<!-- NO2-关于本站 -->
+			<div id="exnav02">
+				<div class="exn02_bg">
+					<p>服务器介绍</p>
+				</div>
+				<div class="exn02_zl">
+					<h3 class="exn_bt">简介</h3>
+					<div class="exn02_kjt">
+						<p>小小人 你的奇幻之心已经准备好迎接未知的冒险！</p>
+						<p>让光辉的太阳、皎洁的月亮和璀璨的星空引领你</p>
+						<p> 在这个广阔的世界中寻找属于你的奇迹</p>
+						<p>欢迎来到 Ellan.TOP 艾尔岚大陆</p>
+						<p>这里是一个专为奇幻冒险者们打造的乐园</p>
+						<p>在这个充满光与暗、幻与真的世界中</p>
+						<p>你将探索未知的领域，勇敢地面对挑战。</p>
+						<p>【寻缘草开时相见，叶瓣凋落一轮回】</p>
+
+					</div>
+				</div>
+
+						<div class="feature-strip">
+							<div class="feature-img img1"></div>
+							<div class="feature-img img2"></div>
+							<div class="feature-img img3"></div>
+							<div class="feature-img img4"></div>
+							<div class="feature-img img5"></div>
+						</div>
+				
+						<div class="exn02_zl">
+					<h3 class="exn_bt">服务器特色</h3>
+					<div class="exn02_kjt">
+
+						<p>
+							实时动态经济系统：我们的服务器经济是实时动态的。根据玩家的交易市场，物价会实时调整，每日更新，创造出一个充满活力的经济环境。
+						</p>
+						<p>
+							AI助理在线聊天：服务器现已接入DeepSeekV3，您可以前往"艾尔岚事务所"前台与AI助理FIA对话交互，聊天内容包括且不限于服务器相关问题。
+						</p>
+						<p>
+							每日任务系统：我们为玩家提供了每日任务，涵盖了探险、建筑、挖掘等各个方面。完成任务可以获得奖励和成就，增加游戏的挑战性和乐趣。
+						</p>
+						<p>
+							抽奖系统：服务器引入了刺激有趣的抽奖系统。通过完成特定任务、参与活动，你可以获得抽奖券。使用抽奖券参与抽奖，有机会获得稀有的装备、特殊道具、游戏内货币或其他令人惊喜的奖品。
+						</p>
+						<p>
+							体验超高的公屏交互：我们的服务器提供了公屏发红包和点歌等功能。你可以在公共聊天频道中发送红包给其他玩家，展示慷慨和友善的一面。同时，你还可以点歌，分享自己喜欢的音乐，与其他玩家一起享受音乐的美妙。
+						</p>
+						<p>
+							玩家财产安全保护：服务器包含了领地系统，容器保护，记录查询等保护机制。我们为这些功能都制作了UI，可以轻松交互，清晰的了解信息。
+						</p>
+						<p>
+							更多独家玩法：服务器内有家具拓展，更多钓鱼，更多附魔，酿酒工艺，移动光源，双人骑马，栓绳村民等独家拓展等你来探索。
+						</p>
+						<p>
+							完全原版的生存机制：服务器采用原汁原味的生存玩法，保留Minecraft最纯粹的乐趣，同时又融入丰富功能与拓展，带来独一无二的生存体验。
+						</p>
+						<p>
+							&nbsp;
+						</p>
+
+					</div>
+				</div>
+			</div>
+                
+			<!-- NO3-站长团队 -->
+			<div id="exnav03">
+				<div class="exnav03_p">
+					<h3>艾尔岚<span>运营团队</span></h3>
+					<h5>连接创意与执行，用技术点亮每一次可能</h5>
+					<p>2020-2025</p>
+					<p>技术是一种信仰，而代码是表达方式…</p>
+				</div>
+				<div class="exnav03_team">
+					<img src="img/gala.jpg" alt="[组织者]" />
+					<img src="img/tt.jpg" alt="[组织者]" />
+					<img src="img/jelly.jpg" alt="[组织者]" />
+
+				</div>
+			</div>
+			<!-- NO4-联系我 -->
+			<div id="exnav04">
+				<div class="exnav04_zsc">
+					<div>
+						<p>点击图片加入官方QQ群</p>
+						<a href="https://qm.qq.com/q/hFdwTQpWtW" target="_blank" rel="noopener noreferrer">
+							<img src="img/qrcode.jpg" alt="[联系二维码]" title="[联系二维码]">
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- NO5-站点展示 -->
+			<div id="exnav05">
+				<div class="exn5_bg">
+					<div class="exn5_bg_nav">
+						<img src="img/nav05_fj.png" />
+						<span>快速链接</span>
+					</div>
+				</div>
+				<!-- 第五页-内容区域 -->
+				<div class="exn5_nr">
+					<div class="exnav05_centent_tit">
+						<h2>🦄官方站点🦄</h2>
+					</div>
+					<!-- 作品展示模板NO1 -->
+					<div class="exnav05_centent_mb">
+						<h2>官方站点</h2>
+						<a href="links/index.html" target="_blank" rel="noopener noreferrer">
+							<div><img src="img/Ellancraft.png" alt="[]" /></div>
+							<h3>艾尔岚 在线客户端</h3>
+							<p>极致轻量化在线客户端，无需下载即可访问本服</p>
+						</a>
+						<div>立即前往</div>
+					</div>
+					<!-- 作品展示模板NO2 -->
+					<div class="exnav05_centent_mb">
+						<a href="https://pd.qq.com/s/9uish7sn4" target="_blank" rel="noopener noreferrer">
+							<div><img src="img/nav05_zp02.jpg" alt="[]" /></div>
+							<h3>QQ交流频道</h3>
+							<p>在交流频道内反馈问题，求助解疑，举报违规，探讨游戏</p>
+						</a>
+						<div>立即前往</div>
+					</div>
+					<!-- 作品展示模板NO3 -->
+					<div class="exnav05_centent_mb">
+						<a href="https://www.yuque.com/galahad-pyzzx/ellan.top" target="_blank" rel="noopener noreferrer">
+							<div><img src="img/nav05_zp03.jpg" alt="[]" /></div>
+							<h3>服务器文档</h3>
+							<p>欢迎各位初来艾尔岚的冒险家们, 让我们一起来看看基础功能教程吧</p>
+						</a>
+						<div>立即前往</div>
+					</div>
+					<!-- 作品展示模板NO4 -->
+					<div class="exnav05_centent_mb">
+						<a href="https://discord.gg/FeKwEbK8" target="_blank" rel="noopener noreferrer">
+							<div><img src="img/discord.png" alt="[]" /></div>
+							<h3>Discord交流群</h3>
+							<p>海外用户建议加入~</p>
+						</a>
+						<div>立即前往</div>
+					</div>
+				</div>
+				</div>
+				</div>
+					
+		<!-- 页面截止 -->
+		<!-- 导航区域 -->
+		<ul id="exnav">
+			<li><img src="font/cnmsb01.png" />
+				<p>首页</p>
+			</li>
+			<li><img src="font/cnmsb02.png" />
+				<p>关于本服</p>
+			</li>
+			<li><img src="font/cnmsb03.png" />
+				<p>开发团队</p>
+			</li>
+			<li><img src="font/cnmsb04.png" />
+				<p>加入群聊</p>
+			</li>
+			<li><img src="font/cnmsb05.png" />
+				<p>快速链接</p>
+			</li>
+		</ul>
+		<!-- 背景飘落 -->
+		<div id="xuna"></div>
+		<script src="js/cnm.sb_bg.js"></script>
+	</div>
+
+</body>
+
+</html>
