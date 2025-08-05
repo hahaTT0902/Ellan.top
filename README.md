@@ -91,19 +91,7 @@
 
 ## 🎞️ 宣传片与图片
 
-* [艾尔岚宣传片](https://www.bilibili.com/video/BV1LbgTeYEUP)
-* 图片预览（节选）：
-
-```
-Ellan艾尔岚大陆-第1张图片  
-Ellan艾尔岚大陆-第2张图片  
-Ellan艾尔岚大陆-第3张图片  
-Ellan艾尔岚大陆-第4张图片  
-Ellan艾尔岚大陆-第5张图片  
-Ellan艾尔岚大陆-第6张图片  
-Ellan艾尔岚大陆-第7张图片  
-Ellan艾尔岚大陆-第8张图片
-```
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112644023388221&bvid=BV1LbgTeYEUP&cid=500001588281833&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ---
 
