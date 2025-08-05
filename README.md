@@ -91,7 +91,7 @@
 
 ## 🎞️ 宣传片
 
-[![点击观看宣传片](https://i0.hdslb.com/bfs/archive/2fdd9aa1f8ecf9f2fcd0cf1c8ad9e4355ecedc5d.jpg)](https://www.bilibili.com/video/BV1LbgTeYEUP)
+*[点击观看宣传片](https://www.bilibili.com/video/BV1LbgTeYEUP)
 
 ---
 
