@@ -54,7 +54,7 @@
 - 📖 剧情线索解析
 - 🏰 建筑与探险指南
 
-👉 [查看 Wiki](http://ellan.lol/wiki)
+👉 [查看 Wiki](https://github.com/hahaTT0902/Ellan.top/wiki)
 
 ---
 
